@@ -44,11 +44,15 @@ The requirements from [eIDAS] Art. 24(1a) and [ETSI TS 119 461 v2.1.1](https://w
 
 #### Qualified electronic sealing service
 
-TBD
+Where required by the applicable QERDS policy/profile, the QTSP applies a qualified electronic seal to service-generated data or evidence so that origin and integrity can be demonstrated.
+
+This architecture document does not redefine the policy or conformity requirements for qualified sealing. Those are inherited from the applicable legal and standards framework and from the QTSP's qualified sealing service documentation and controls.
 
 #### Qualified time stamping service
 
-TBD
+The QERDS architecture relies on trusted time information for evidence creation, event ordering, and traceability, where proof of time is required.
+
+This architecture document does not redefine the policy or conformity requirements for qualified time stamping. Those are inherited from the applicable legal and standards framework and from the QTSP's time-stamping service documentation and controls.
 
 ### Deployment model and interfaces
 
@@ -68,6 +72,30 @@ TBD
 
 ## Deviations from European Business Wallets
 
-In the WE BUILD pre-production environment, some European Business Wallet roles are simulated:
+WE BUILD operates as a pre-production pilot environment and is not identical to the final legally mandated ecosystem.
 
-TBD
+Accordingly, some European Business Wallet roles, trust components, and operational arrangements may be simulated, stubbed, or implemented with transitional pilot-specific configurations for interoperability testing.
+
+Examples may include:
+- pilot registries (including fictitious or simulated registry data);
+- pilot trust-status sources, including WE BUILD trusted-list style mechanisms;
+- gateway components used during migration or derogation periods;
+- non-production governance workflows and consortium-specific conventions.
+
+Any such deviation should be explicitly documented in the relevant WE BUILD artefact (e.g. ADR, WBCS, or profile documentation), including:
+- scope of the deviation;
+- reason for the deviation;
+- expected duration (if known);
+- impact on interoperability testing;
+- migration conditions toward the target-state arrangement.
+
+### Out of scope
+
+This document does not define:
+- Member State-specific policy choices, approval criteria, or national extensions;
+- long-term production operating models or operational SLAs;
+- legal qualification decisions or conformity assessment procedures;
+- provider-specific internal control implementations;
+- detailed wire-level protocol bindings (unless explicitly stated elsewhere).
+
+These topics may be addressed in ADRs, WBCS, provider documentation, or other WE BUILD/WP4 artefacts as applicable.
