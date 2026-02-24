@@ -8,6 +8,17 @@ This document specifies the high-level architecture for the [provision of qualif
 It aims to guide the specification, development, testing and implementation of QERDS.
 It complements the [WE BUILD architecture documentation](https://github.com/webuild-consortium/wp4-architecture) which specifies, among other topics, the transmission of data within WE BUILD in general.
 
+### Status of this document
+
+This document is informative and focuses on architectural scope, roles, and interaction points for QERDS in WE BUILD pre-production.
+
+It complements - but does not replace - other WE BUILD architecture artefacts:
+- the WE BUILD Architecture & Integration Blueprint (D4.1) for the overall "big picture";
+- Architectural Decision Records (ADRs) for major architectural choices;
+- WE BUILD Conformance Specifications (WBCS) for detailed technical requirements and interface rules.
+
+Detailed protocol bindings and implementation commitments are expected to be defined in the relevant WBCS and validated through the WE BUILD Interoperability Testbed (ITB).
+
 ### Definitions
 
 In WE BUILD, QTSPs as defined under [eIDAS] Art. 3(20) provide pre-production ERDS as defined under Art. 3(16)(g) and (h), technically ready to be audited for qualification as defined under Art. 3(17), for QERDS as defined under Art. 3(37).
