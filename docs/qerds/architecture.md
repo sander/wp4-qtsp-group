@@ -15,6 +15,12 @@ The remainder of this specification uses the QERDS term for the pre-production W
 
 [eIDAS]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02014R0910-20241018
 
+### QERDS role in the WE BUILD system landscape
+
+In the WE BUILD system landscape, the QERDS capability serves as the secure communication channel for legally relevant exchanges and evidence handling in business-wallet-related interactions.
+
+At a high level, this architecture treats the QTSP/QERDS as a trust-and-messaging component through which ecosystem participants (e.g. issuers, holders, verifiers, and related services) can route delivery-related interactions, while broader trust evaluation remains dependent on the WE BUILD trust framework, registries, and trusted-list mechanisms.
+
 ## Technical specifications for QERDS
 
 ### Functional decomposition
